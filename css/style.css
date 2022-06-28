@@ -1,9 +1,59 @@
 *{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
+/*?                          Mobile menu open*/
+header{
+    background: white;
+
+}
+#sidebar ul{
+    display: flex;
+    justify-content:space-around;
+}
+#sidebar li ul {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    border-radius:4px;
+    
+}
+#sidebar li:hover > ul {
+    display: block;
+}
+
+#sidebar li:hover > ul {
+    background: white;
+}
+
+#sidebar ul li{
+    list-style: none;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333333;
+
+}
+#sidebar ul li a:hover{
+    color: #AE8646;
+    text-decoration: underline;
+}
+/**                 кнопка сайдбара БУРГЕР */
+#sidebar .toggle-btn{ 
+    display: none;
+
+}
+
+
+/*?                          Mobile menu close*/
 .container{
-    max-width: 1110px;
+    max-width: 1300px;
     margin: auto;
 }
 .main_page{

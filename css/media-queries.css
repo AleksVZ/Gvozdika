@@ -1,21 +1,138 @@
-@media only screen and (max-width: 1024px) {
+
+
+
+@media only screen and (max-width: 1023px) {
+   
 
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
+ 
+
+}
+
+@media only screen and (max-width: 819px) {
+   
 
 }
 @media only screen and (max-width: 767px) {
+    #sidebar .toggle-btn{ 
+        display:inline-block;
+    
+    }
+    #sidebar{
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        left: -250px;
+        border-right: 4px solid #E0E5Ea;
+        transition: all 600ms;
+    }
+    /*?                          Mobile menu open*/
+#sidebar{
+    background: #03453B;
+    
 
 }
-@media only screen and (max-width: 420px) {
+#sidebar ul{
+    display: inline-block;
+    
+}
+#sidebar.active{
+    left: 0px;
+}
+#sidebar ul li:first-child{
+    padding: 50px 10px 10px 10px;
+    width: 90%;
+    margin-left: 10%;
+    font-size: 1.1em;
+    list-style: none;
 
 }
-@media only screen and (max-width: 375px) {
+#sidebar ul li:not(:first-child){
+    width: 90%;
+    margin-left: 10%;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 10px;
+    
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: #dfe5eb;
+    font-size: 1.5rem;
+}
+#sidebar ul li a:hover{
+    color: #AE8646;
+    text-decoration: underline;
+    
+}
+/**                 кнопка сайдбара БУРГЕР */
+#sidebar .toggle-btn{ 
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: #03453B;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+
 
 }
-@media only screen and (max-width: 360px) {
+#sidebar .toggle-btn:hover{
+    background-color: #EBEBEB;
+}
+#sidebar .toggle-btn:hover span{
+    background-color: #03453B;
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #EBEBEB;
+    margin: 4px 0;
+    
+}
+
+
+
+
+/* #sidebar li:hover > ul {
+    background: none;
+    left: 130px;
+    top: 39px;
+  
+
+} */
+#sidebar li:hover > ul {
+    /* display: block; */
+    display: none;
+}
+
+
+
+
+/*?                          Mobile menu close*/
 
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 427px) {
+
+}
+@media only screen and (max-width: 413px) {
+
+}
+
+@media only screen and (max-width: 389px) {
+
+}
+@media only screen and (max-width: 374px) {
+
+}
+@media only screen and (max-width: 359px) {
+
+}
+@media only screen and (max-width: 319px) {
+
+}
+@media only screen and (max-width: 279px) {
 
 }

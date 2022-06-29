@@ -27,9 +27,13 @@
         border-right: 4px solid #E0E5Ea;
         transition: all 600ms;
     }
+
+
+
     /*?                          Mobile menu open*/
 #sidebar{
     background: #03453B;
+    /* margin-top: 50px; */
     
 
 }
@@ -42,10 +46,12 @@
 }
 #sidebar ul li:first-child{
     padding: 50px 10px 10px 10px;
+  
     width: 90%;
     margin-left: 10%;
     font-size: 1.1em;
     list-style: none;
+    
 
 }
 #sidebar ul li:not(:first-child){
@@ -75,9 +81,7 @@
     padding: 10px;
     border-radius: 12px;
     cursor: pointer;
-
-
-}
+   }
 #sidebar .toggle-btn:hover{
     background-color: #EBEBEB;
 }
@@ -85,24 +89,15 @@
     background-color: #03453B;
 }
 #sidebar .toggle-btn span{
-    display: block;
+    display: block; 
     width: 25px;
     height: 4px;
     background-color: #EBEBEB;
     margin: 4px 0;
-    
+
 }
 
 
-
-
-/* #sidebar li:hover > ul {
-    background: none;
-    left: 130px;
-    top: 39px;
-  
-
-} */
 #sidebar li:hover > ul {
     /* display: block; */
     display: none;

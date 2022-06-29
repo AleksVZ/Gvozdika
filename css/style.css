@@ -1,17 +1,37 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
 }
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #333333;
+}
+
+ul{
+    list-style-type: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+
+/** Normilize */
+
 /*?                          Mobile menu open*/
 header{
     background: white;
+    
 
 }
 #sidebar ul{
     display: flex;
     justify-content:space-around;
+    gap: 15px;
+  
 }
 #sidebar li ul {
     position: absolute;
@@ -47,11 +67,15 @@ header{
 /**                 кнопка сайдбара БУРГЕР */
 #sidebar .toggle-btn{ 
     display: none;
+    
 
 }
 
 
 /*?                          Mobile menu close*/
+
+/*TODO                                     Header */
+
 .container{
     max-width: 1300px;
     margin: auto;
@@ -62,3 +86,57 @@ header{
     background-size: cover;
 
 }
+.location #change_city{
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.social p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+
+}
+.social_Icons {
+    display: flex;
+    justify-content: space-around;
+}
+.social_Icons a{
+    width: 27px;
+    height: 27px;
+}
+.btn_bronze{
+    background: #B9956F;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+}
+
+.lang li ul {
+    position: absolute;
+    display: none;
+}
+.lang li:hover > ul {
+    display: block;
+}
+.head_navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+
+} 
